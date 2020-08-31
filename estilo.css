@@ -1,12 +1,17 @@
 body{
-    background-color: darkblue;
-    background-image: url("trevo.svg");
-    background-size: 100px;
+    background-color: blue;
+    background-image: url("atras.svg");
+    background-size: 100% auto;
+    background-attachment: fixed;
     color:white;
     text-align: center;
     font-family:'Arial';
-    max-width:640px;
     margin:auto;
+}
+img#wordmark{
+    max-width:40vw;
+    float:left;
+    margin-left: -40px;
 }
 div.cabe{
     margin-top:-10px;
@@ -17,22 +22,20 @@ div.cabe{
     width:100%;
     text-align: center;
     left:0px;
-    background-color: darkblue;
 }
 div.cabe table{
     margin:auto;
 }
 div.conteudo{
+    max-width:640px;
     background-color: darkgreen;
     border-radius: 7px;
     border:1px solid black;
-    margin-top:14px;
     padding:5px;
-    margin:auto;
-    margin-top:5px;
+    margin:32px auto;
 }
 div.rodape{
-    background-color: darkblue;
+    background-color: #0008000;
     margin:20px;
 }
 img.capitular{
