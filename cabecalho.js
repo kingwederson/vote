@@ -9,7 +9,7 @@ function cabecalho(){
                 </td>
                 <td>
                     <header>
-                        <img src="../letreiro.svg?id=1" id="wordmark">
+                        <img src="../numero.svg?id=1" id="wordmark">
                     </header>
                 </td>
             </tr>
