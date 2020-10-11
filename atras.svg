@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -14,7 +12,7 @@
    viewBox="0 0 225.68958 253.73542"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
    sodipodi:docname="atras.svg">
   <defs
      id="defs2" />
@@ -25,7 +23,7 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
+     inkscape:zoom="0.3389804"
      inkscape:cx="559.89397"
      inkscape:cy="552.16697"
      inkscape:document-units="mm"
@@ -37,7 +35,8 @@
      inkscape:window-height="705"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:document-rotation="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -46,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -219,69 +218,20 @@
     <flowRoot
        xml:space="preserve"
        id="flowRoot1051"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.33333206px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
          id="flowRegion1053"><rect
            id="rect1055"
            width="266.05713"
            height="50.294323"
            x="854"
            y="260.00006" /></flowRegion><flowPara
-         id="flowPara1057" /></flowRoot>    <g
-       id="g861">
-      <rect
-         transform="scale(1,-1)"
-         y="-297"
-         x="0"
-         height="127"
-         width="225.95416"
-         id="rect1221"
-         style="opacity:1;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06559503;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="rect815-1"
-         d="m 0,297 c 65.806903,-2.2176 122.22409,-21.65723 225.95417,-68.79168 V 170 H 0 Z"
-         style="opacity:1;fill:#ff7215;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.89233178;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="rect815-0"
-         d="m 0,286.41667 c 55.659031,-4.43508 130.95534,-24.00469 225.95417,-72.10974 V 170 H 0 Z"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.77851981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <path
-         style="opacity:1;fill:#006c00;fill-opacity:1;fill-rule:nonzero;stroke:#006c00;stroke-width:0.77140969;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-         d="m 0,284.3 c 55.659031,-4.35441 130.95534,-23.56822 225.95417,-70.79868 V 170 H 0 Z"
-         id="path1238"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-    </g>
-    <g
-       id="g867">
-      <rect
-         y="43.264568"
-         x="0"
-         height="127"
-         width="225.95416"
-         id="rect1221-8"
-         style="opacity:1;fill:#0000ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.06559503;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="rect815-1-4"
-         d="m 0,43.26456 c 65.806903,2.2176 122.22409,21.65723 225.95417,68.79168 v 58.20832 H 0 Z"
-         style="opacity:1;fill:#ff7215;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.89233178;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <path
-         sodipodi:nodetypes="ccccc"
-         inkscape:connector-curvature="0"
-         id="rect815-0-7"
-         d="m 0,53.84789 c 55.659031,4.43508 130.95534,24.00469 225.95417,72.10974 v 44.30693 H 0 Z"
-         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.77851981;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
-      <path
-         style="opacity:1;fill:#006c00;fill-opacity:1;fill-rule:nonzero;stroke:#006c00;stroke-width:0.77140969;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-         d="m 0,55.96456 c 55.659031,4.35441 130.95534,23.56822 225.95417,70.79868 v 43.50132 H 0 Z"
-         id="path1238-1"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-    </g>
+         id="flowPara1057" /></flowRoot>
+    <rect
+       style="opacity:0.999;fill:#ff6600;stroke-width:3.02688;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+       id="rect871"
+       width="225.68959"
+       height="254.45178"
+       x="-1.4210855e-14"
+       y="43.264572" />
   </g>
 </svg>
