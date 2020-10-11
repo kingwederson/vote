@@ -28,14 +28,14 @@ div.cabe table{
 }
 div.conteudo{
     max-width:640px;
-    background-color: darkgreen;
+    background-color: #027283;
     border-radius: 7px;
     border:1px solid black;
     padding:5px;
     margin:32px auto;
 }
 div.rodape{
-    background-color: #0008000;
+    background-color: #00080;
     margin:20px;
 }
 img.capitular{
@@ -75,7 +75,7 @@ nav.menu li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: white;
-    background-color: darkgreen;
+    background-color: #027283;
     border-radius: 0px;
     border: 1px solid #5c7cb2;
     box-shadow:0px 1px 3px rgba(0,0,0,0.5);
@@ -93,7 +93,7 @@ nav.menu li:hover{
 }
 /* alça */
 ::-webkit-scrollbar-thumb {
-  background: darkgreen; 
+  background: white; 
   border-radius: 10px;
 }
 
