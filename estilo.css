@@ -40,7 +40,7 @@ div.rodape{
 }
 img.capitular{
     display:inline-box;
-    max-height: 360px;
+    max-height: 20vh;
     margin:auto;
 }
 img.selo{
