@@ -421,8 +421,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.59313977"
-     inkscape:cx="509.45961"
-     inkscape:cy="302.90557"
+     inkscape:cx="522.94716"
+     inkscape:cy="-236.59627"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -452,189 +452,184 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-177.93748)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:172.642px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#027283;stroke-width:17.8577;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="11.080803"
+       y="387.05127"
+       id="text1105"
+       transform="scale(1.3075677,0.76477875)"><tspan
+         sodipodi:role="line"
+         id="tspan1103"
+         x="11.080803"
+         y="387.05127"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.7297px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#ffffff;stroke:#027283;stroke-width:17.8577;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">55777</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:172.642px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:2.64488;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="11.080803"
+       y="387.05127"
+       id="text858-9"
+       transform="scale(1.3075677,0.76477875)"><tspan
+         sodipodi:role="line"
+         id="tspan856-0"
+         x="11.080803"
+         y="387.05127"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:76.7297px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#ffffff;stroke:#ffffff;stroke-width:2.64488;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">55777</tspan></text>
     <g
-       id="g1159"
+       id="g1125"
+       style="fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        transform="matrix(1.2942623,0,0,1.2942623,-63.425402,-69.790971)">
-      <g
-         id="g1062"
-         transform="matrix(1.9314258,0,0,1.9314258,-82.343123,-297.78618)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.0631px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#027283;stroke-width:7.14375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="56.442127"
-           y="392.94064"
-           id="text1105"
-           transform="scale(1.3075677,0.76477876)"><tspan
-             sodipodi:role="line"
-             id="tspan1103"
-             x="56.442127"
-             y="392.94064"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.6947px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#ffffff;stroke:#027283;stroke-width:7.14375;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">55777</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:69.0631px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:1.05805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="56.442127"
-           y="392.94064"
-           id="text858-9"
-           transform="scale(1.3075677,0.76477876)"><tspan
-             sodipodi:role="line"
-             id="tspan856-0"
-             x="56.442127"
-             y="392.94064"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.6947px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';fill:#ffffff;stroke:#ffffff;stroke-width:1.05805;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">55777</tspan></text>
-      </g>
-      <g
-         id="g1125"
-         style="fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9473px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9473px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="57.243359"
+         y="223.94412"
+         id="text1111"><tspan
+           sodipodi:role="line"
+           id="tspan1109"
            x="57.243359"
            y="223.94412"
-           id="text1111"><tspan
-             sodipodi:role="line"
-             id="tspan1109"
-             x="57.243359"
-             y="223.94412"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.0936px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.3273px;word-spacing:3.273px;fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">WEDERSON</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.0936px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.3273px;word-spacing:3.273px;fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">WEDERSON</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="136.6331"
+         y="260.18076"
+         id="text1115"
+         transform="scale(1.0974589,0.91119586)"><tspan
+           sodipodi:role="line"
+           id="tspan1113"
            x="136.6331"
            y="260.18076"
-           id="text1115"
-           transform="scale(1.0974589,0.91119586)"><tspan
-             sodipodi:role="line"
-             id="tspan1113"
-             x="136.6331"
-             y="260.18076"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">VEREADOR</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4189px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">VEREADOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4189px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="58.17289"
+         y="235.95398"
+         id="text1119"
+         transform="scale(0.98406515,1.0161929)"><tspan
+           sodipodi:role="line"
+           id="tspan1117"
            x="58.17289"
            y="235.95398"
-           id="text1119"
-           transform="scale(0.98406515,1.0161929)"><tspan
-             sodipodi:role="line"
-             id="tspan1117"
-             x="58.17289"
-             y="235.95398"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6375px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.209669px;word-spacing:2.09669px;fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DE PAULA</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1132px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6375px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.209669px;word-spacing:2.09669px;fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DE PAULA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1132px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="93.319923"
+         y="196.74661"
+         id="text1123"
+         transform="scale(0.97803357,1.0224598)"><tspan
+           sodipodi:role="line"
+           id="tspan1121"
            x="93.319923"
            y="196.74661"
-           id="text1123"
-           transform="scale(0.97803357,1.0224598)"><tspan
-             sodipodi:role="line"
-             id="tspan1121"
-             x="93.319923"
-             y="196.74661"
-             style="font-size:6.27253px;fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CNPJ do candidato: 38.785.892/0001-56</tspan></text>
-      </g>
-      <g
-         id="g1090"
-         style="fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9473px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-size:6.27253px;fill:#ff6600;stroke:#027283;stroke-width:10.5833;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CNPJ do candidato: 38.785.892/0001-56</tspan></text>
+    </g>
+    <g
+       id="g1090"
+       style="fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.2942623,0,0,1.2942623,-63.425402,-69.790971)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9473px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="57.243359"
+         y="223.94412"
+         id="text1076"><tspan
+           sodipodi:role="line"
+           id="tspan1074"
            x="57.243359"
            y="223.94412"
-           id="text1076"><tspan
-             sodipodi:role="line"
-             id="tspan1074"
-             x="57.243359"
-             y="223.94412"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.0936px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.3273px;word-spacing:3.273px;fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">WEDERSON</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.0936px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.3273px;word-spacing:3.273px;fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">WEDERSON</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="136.6331"
+         y="260.18076"
+         id="text1080"
+         transform="scale(1.0974589,0.91119586)"><tspan
+           sodipodi:role="line"
+           id="tspan1078"
            x="136.6331"
            y="260.18076"
-           id="text1080"
-           transform="scale(1.0974589,0.91119586)"><tspan
-             sodipodi:role="line"
-             id="tspan1078"
-             x="136.6331"
-             y="260.18076"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">VEREADOR</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4189px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">VEREADOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4189px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="58.17289"
+         y="235.95398"
+         id="text1084"
+         transform="scale(0.98406515,1.0161929)"><tspan
+           sodipodi:role="line"
+           id="tspan1082"
            x="58.17289"
            y="235.95398"
-           id="text1084"
-           transform="scale(0.98406515,1.0161929)"><tspan
-             sodipodi:role="line"
-             id="tspan1082"
-             x="58.17289"
-             y="235.95398"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6375px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.209669px;word-spacing:2.09669px;fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DE PAULA</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1132px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6375px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.209669px;word-spacing:2.09669px;fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DE PAULA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1132px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#ff6600;fill-opacity:1;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="93.319923"
+         y="196.74661"
+         id="text1088"
+         transform="scale(0.97803357,1.0224598)"><tspan
+           sodipodi:role="line"
+           id="tspan1086"
            x="93.319923"
            y="196.74661"
-           id="text1088"
-           transform="scale(0.97803357,1.0224598)"><tspan
-             sodipodi:role="line"
-             id="tspan1086"
-             x="93.319923"
-             y="196.74661"
-             style="font-size:6.27253px;fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CNPJ do candidato: 38.785.892/0001-56</tspan></text>
-      </g>
-      <g
-         id="g1072">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9473px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2182;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-size:6.27253px;fill:#ff6600;stroke:#ff6600;stroke-width:5.29167;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CNPJ do candidato: 38.785.892/0001-56</tspan></text>
+    </g>
+    <g
+       id="g1072"
+       transform="matrix(1.2942623,0,0,1.2942623,-63.425402,-69.790971)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.9473px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.2182;stroke-miterlimit:4;stroke-dasharray:none"
+         x="57.243359"
+         y="223.94412"
+         id="text830"><tspan
+           sodipodi:role="line"
+           id="tspan828"
            x="57.243359"
            y="223.94412"
-           id="text830"><tspan
-             sodipodi:role="line"
-             id="tspan828"
-             x="57.243359"
-             y="223.94412"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.0936px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.3273px;word-spacing:3.273px;fill:#ffffff;stroke:#ffffff;stroke-width:0.2182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">WEDERSON</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.372794"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.0936px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.3273px;word-spacing:3.273px;fill:#ffffff;stroke:#ffffff;stroke-width:0.2182;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">WEDERSON</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.372794"
+         x="136.6331"
+         y="260.18076"
+         id="text858"
+         transform="scale(1.0974589,0.91119586)"><tspan
+           sodipodi:role="line"
+           id="tspan856"
            x="136.6331"
            y="260.18076"
-           id="text858"
-           transform="scale(1.0974589,0.91119586)"><tspan
-             sodipodi:role="line"
-             id="tspan856"
-             x="136.6331"
-             y="260.18076"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#ffffff;stroke-width:0.372794">VEREADOR</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4189px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.139779;stroke-miterlimit:4;stroke-dasharray:none"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6705px;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';fill:#ffffff;stroke-width:0.372794">VEREADOR</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.4189px;line-height:1.25;font-family:Arial;-inkscape-font-specification:Arial;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.139779;stroke-miterlimit:4;stroke-dasharray:none"
+         x="58.17289"
+         y="235.95398"
+         id="text830-3"
+         transform="scale(0.98406515,1.0161929)"><tspan
+           sodipodi:role="line"
+           id="tspan828-1"
            x="58.17289"
            y="235.95398"
-           id="text830-3"
-           transform="scale(0.98406515,1.0161929)"><tspan
-             sodipodi:role="line"
-             id="tspan828-1"
-             x="58.17289"
-             y="235.95398"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6375px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.209669px;word-spacing:2.09669px;fill:#ffffff;stroke:#ffffff;stroke-width:0.139779;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DE PAULA</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1132px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.42615;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.6375px;font-family:'Berlin Sans FB Demi';-inkscape-font-specification:'Berlin Sans FB Demi';letter-spacing:0.209669px;word-spacing:2.09669px;fill:#ffffff;stroke:#ffffff;stroke-width:0.139779;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DE PAULA</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.1132px;line-height:1.25;font-family:'Baskerville Old Face';-inkscape-font-specification:'Baskerville Old Face';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.42615;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="93.319923"
+         y="196.74661"
+         id="text858-8-4"
+         transform="scale(0.97803357,1.0224598)"><tspan
+           sodipodi:role="line"
+           id="tspan856-4-1"
            x="93.319923"
            y="196.74661"
-           id="text858-8-4"
-           transform="scale(0.97803357,1.0224598)"><tspan
-             sodipodi:role="line"
-             id="tspan856-4-1"
-             x="93.319923"
-             y="196.74661"
-             style="font-size:6.27253px;fill:#ffffff;stroke:#ffffff;stroke-width:0.42615;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CNPJ do candidato: 38.785.892/0001-56</tspan></text>
-      </g>
+           style="font-size:6.27253px;fill:#ffffff;stroke:#ffffff;stroke-width:0.42615;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">CNPJ do candidato: 38.785.892/0001-56</tspan></text>
     </g>
   </g>
 </svg>
