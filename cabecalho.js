@@ -18,7 +18,6 @@ function cabecalho(){
             <ul>
                 <a href="../index.html"><li>Principal</li></a>
                 <a href="../perguntas/"><li>Perguntas</li></a>
-                <a href="../apoio/"><li>Apoio</li></a>
                 <a href="../depoimentos/"><li>Depoimentos</li></a>
                 <a href="../facebook/"><li>Facebook</li></a>
                 <a href="../instagram/"><li>Instagram</li></a>
