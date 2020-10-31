@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function apura(){
+            var total = 5770
+            var laercio = 0
+            var dragao = 0
+            var branco = 0
+            var nulo = 0
+            var abst = 0
+            var vantagem = 0
+            var restantes = 5770
+            for(var i = 0;i<24;i++){
+                laercio = Number(document.getElementsByClassName('laercio')[i].value)+Number(laercio)
+                dragao = Number(document.getElementsByClassName('dragao')[i].value)+Number(dragao)
+                branco = Number(document.getElementsByClassName('branco')[i].value)+Number(branco)
+                nulo = Number(document.getElementsByClassName('nulo')[i].value)+Number(nulo)
+                abst = Number(document.getElementsByClassName('abst')[i].value)+Number(abst)
+                vantagem = laercio-dragao
+                restantes = total-laercio-dragao-branco-nulo-abst
+            }
+            window.document.getElementById('dragaoSV').innerText = dragao
+            window.document.getElementById('laercioSV').innerText = laercio
+            window.document.getElementById('brancoSV').innerText = branco
+            window.document.getElementById('nuloSV').innerText = nulo
+            window.document.getElementById('abstSV').innerText = abst
+            if(laercio>dragao){
+                document.getElementById("vantagemSV").style.color = "white"
+                document.getElementById("vantagemSV").style.backgroundColor = "rgb(0,182,73)"
+                window.document.getElementById('vantagemSV').innerText = "+"+Number(vantagem)
+            }else{
+                document.getElementById('vantagemSV').style.color = "red"
+                document.getElementById('vantagemSV').style.backgroundColor = "yellow"
+                window.document.getElementById('vantagemSV').innerText = Number(vantagem)
+            }
+            window.document.getElementById('restantesSV').innerText = Number(restantes)
+            if(vantagem>restantes){
+                window.document.getElementById('mensagem').innerText = "É Laércio e Chiquinho SIM! Chama que é 15 de novo!"
+            }else if(-vantagem>=restantes){
+                window.document.getElementById('mensagem').innerText = "Obrigado pelo apoio! Vão para casa com segurança."
+            }else{
+                window.document.getElementById('mensagem').innerText = ""
+            }
+        }
+    </script>
+    <style>
+        body{
+            color: rgb(0,182,73);
+            background-color: rgb(31,46,88);
+            text-align: center;
+            font-family: sans-serif;
+        }
+        h1{
+            font-size: 30pt;
+        }
+        input[type="number"]{
+            width:40px;
+            text-align: right;
+        }
+        td{
+            text-align: center;
+        }
+        div#placarprefeito{
+            font-size: 40pt;
+            font-weight: bolder;
+        }
+        span.PSV{
+            margin:10px;
+            padding-left: 30px;
+            padding-right: 30px;
+            border-radius: 10px;
+        }
+        span.PSVmenor{
+            margin:5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 5px;
+            font-size: 20pt;
+        }
+        .dragao{
+            background-color: yellow;
+            color:red;
+        }
+        .laercio{
+            background-color:rgb(0,182,73);
+            color:white;
+        }
+        .branco{
+            background-color: white;
+            color:black;
+        }
+        .nulo{
+            background-color: gray;
+            color:black;
+        }
+        .abst{
+            background-color: black;
+            color:white;
+        }
+        span#vantagemSV{
+            color:red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apuração dos votos para prefeito</h1>
+    <p>versão 1</p>
+    <table onmouseout="apura()">
+        <tr>
+            <th>seção</th>
+            <td>S 64</td>
+            <td>S 65</td>
+            <td>S 66</td>
+            <td>S 67</td>
+            <td>S 68</td>
+            <td>S 69</td>
+            <td>S 70</td>
+            <td>S 71</td>
+            <td>S 72</td>
+            <td>S 73</td>
+            <td>S 74</td>
+            <td>S 75</td>
+            <td>S 76</td>
+            <td>S 77</td>
+            <td>S 78</td>
+            <td>S 79</td>
+            <td>S 80</td>
+            <td>S 81</td>
+            <td>S 82</td>
+            <td>S 83</td>
+            <td>S 84</td>
+            <td>S 85</td>
+            <td>S 86</td>
+            <td>S 87</td>
+        </tr>
+        <tr>
+            <th>Dragão</th>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+            <td><input type="number" class="dragao" id="" value="0"></td>
+        </tr>
+        <tr>
+            <th>Laércio</th>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+            <td><input type="number" class="laercio" id="" value="0"></td>
+        </tr>
+        <tr>
+            <th>branco</th>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+            <td><input type="number" class="branco" id="" value="0"></td>
+        </tr>
+        <tr>
+            <th>nulos</th>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+            <td><input type="number" class="nulo" id="" value="0"></td>
+        </tr>
+        <tr>
+            <th>abst</th>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+            <td><input type="number" class="abst" id="" value="0"></td>
+        </tr>
+    </table>
+    <input type="button" value="Apurar" onclick="apura()">
+    <div id="placarprefeito">
+        <span class="PSV dragao" id="dragaoSV">0</span> &dash;
+        <span class="PSV laercio" id="laercioSV">0</span><br>
+        <span class="PSVmenor branco" id="brancoSV">0</span>
+        <span class="PSVmenor nulo" id="nuloSV">0</span>
+        <span class="PSVmenor abst" id="abstSV">0</span><br>
+        vantagem:<span class="PSV" id="vantagemSV">0</span><br>
+        restantes:<span class="PSV" id="restantesSV">5770</span><br>
+        <span class="PSV" id="mensagem"></span>
+    </div>
+    <p>Programado por Wederson Geovane de Paula</p>
+</body>
+</html>
