@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <script>
         function apura(){
             var total = 5770
@@ -45,6 +46,34 @@
             }else{
                 window.document.getElementById('mensagem').innerText = ""
             }
+            new Chart(document.getElementById('apuracaoprefeito'), {
+                type: 'doughnut',
+                data: {
+                    labels: ["Laercio","restantes","Dragão"],
+                    datasets: [{
+                        label: 'Votos',
+                        data: [laercio,restantes,dragao],
+                        backgroundColor: [
+                            'rgb(0, 128, 0)',
+                            'rgb(255, 255, 255)',
+                            'rgb(255, 255, 0)'
+                        ],
+                        borderColor: [
+                            'rgb(0, 0, 0)',
+                            'rgb(0, 0, 0)',
+                            'rgb(0, 0, 0)'
+                        ]
+                    }]
+                },
+                options: {
+                    legend: {
+                        display: true,
+                        labels: {
+                            fontColor: 'rgb(255,255,255)'
+                        }
+                    }
+                }
+            })
         }
     </script>
     <style>
@@ -67,6 +96,9 @@
         div#placarprefeito{
             font-size: 40pt;
             font-weight: bolder;
+            display: inline-block;
+            max-width: 480px;
+            float:left;
         }
         span.PSV{
             margin:10px;
@@ -105,12 +137,17 @@
             color:red;
             background-color: yellow;
         }
+        canvas{
+            max-width: 480px;
+            display: inline-block;
+            float:right;
+        }
     </style>
 </head>
 <body>
     <h1>Apuração dos votos para prefeito</h1>
     <p>versão 1</p>
-    <table onmouseout="apura()">
+    <table onchange="apura()">
         <tr>
             <th>seção</th>
             <td>S 64</td>
@@ -274,7 +311,7 @@
             <td><input type="number" class="abst" id="" value="0"></td>
         </tr>
     </table>
-    <input type="button" value="Apurar" onclick="apura()">
+    <input type="button" value="Apurar" onclick="apura(),grafica()">
     <div id="placarprefeito">
         <span class="PSV dragao" id="dragaoSV">0</span> &dash;
         <span class="PSV laercio" id="laercioSV">0</span><br>
@@ -285,6 +322,7 @@
         restantes:<span class="PSV" id="restantesSV">5770</span><br>
         <span class="PSV" id="mensagem"></span>
     </div>
+    <canvas id="apuracaoprefeito"></canvas>
     <p>Programado por Wederson Geovane de Paula</p>
 </body>
 </html>
