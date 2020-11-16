@@ -3,65 +3,429 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apurador - Wederson de Paula</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title>Wederson de Paula - Resultado da Eleição</title>
+    <style>
+        body{
+            font-family:'Arial';
+            text-align:center;
+            background-color: #027283;
+            margin:20px;
+            color:white;
+        }
+        td{
+            border-radius: 4px;
+        }
+        div.grafico{
+            border-radius: 50px;
+            margin: auto;
+            display: inline-block;
+        }
+        div.graficobar{
+            float:left;
+            border-radius: 50px;
+        }
+        canvas{
+            min-width:300px;
+            
+        }
+        h1,h2,h3,h4,h5,h6{
+            color:white;
+        }
+        table{
+            border-color: black;
+            display: inline-block;
+        }
+        td,th{
+            border-color: 1px solid black;
+            border-radius: 6px;
+            margin:2px;
+            padding: 3px;
+        }
+        td{
+            color:white;
+            background-color: black;
+            font-weight:bolder;
+            text-align: right;
+        }
+        th{
+            background-color:rgb(22, 12, 65);
+        }
+        tr.eleito th:nth-child(1){
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resultado da Eleição</h1>
+    <h2>Prefeito</h2>
+    <table>
+        <tr>
+            <th rowspan="2">Opção</th>
+            <th rowspan="2">Votos</th>
+            <th colspan="3">Percentual</th>
+        </tr>
+        <tr>
+            <th>Válidos</th>
+            <th>Objetivos</th>
+            <th>Totais</th>
+        </tr>
+        <tr>
+            <th>Laércio</th>
+            <td>2399</td>
+            <td>51.33%</td>
+            <td>50.59%</td>
+            <td>49.33%</td>
+        </tr>
+        <tr>
+            <th>Dragão</th>
+            <td>2275</td>
+            <td>48.67%</td>
+            <td>47.98%</td>
+            <td>46.78%</td>
+        </tr>
+        <tr>
+            <th>brancos</th>
+            <td>68</td>
+            <td>&dash;</td>
+            <td>1.43%</td>
+            <td>1.40%</td>
+        </tr>
+        <tr>
+            <th>nulos</th>
+            <td>121</td>
+            <td>&dash;</td>
+            <td>&dash;</td>
+            <td>2.49%</td>
+        </tr>
+    </table>
+    <div class="grafico">
+        <canvas id="prefeito2020"></canvas>
+    </div>
+        <h2>Vereador</h2>
+        <h3>Por partido</h3>
+        <table>
+            <tr>
+                <th rowspan="2">Opção</th>
+                <th rowspan="2">Votos</th>
+                <th rowspan="2">Cadeiras</th>
+                <th colspan="3">Percentual</th>
+            </tr>
+            <tr>
+                <th>Válidos</th>
+                <th>Objetivos</th>
+                <th>Totais</th>
+            </tr>
+            <tr>
+                <th>MDB</th>
+                <td>2376</td>
+                <td>5</td>
+                <td>52.61%</td>
+                <td>51.54%</td>
+                <td>49.78%</td>
+            </tr>
+            <tr>
+                <th>DEM</th>
+                <td>2014</td>
+                <td>4</td>
+                <td>44.60%</td>
+                <td>43.69%</td>
+                <td>42.20%</td>
+            </tr>
+            <tr>
+                <th>PSD</th>
+                <td>126</td>
+                <td>0</td>
+                <td>2.79%</td>
+                <td>4.69%</td>
+                <td>2.64%</td>
+            </tr>
+            <tr>
+                <th>brancos</th>
+                <td>94</td>
+                <td>&dash;</td>
+                <td>&dash;</td>
+                <td>2.04%</td>
+                <td>1.97%</td>
+            </tr>
+            <tr>
+                <th>nulo</th>
+                <td>163</td>
+                <td>&dash;</td>
+                <td>&dash;</td>
+                <td>&dash;</td>
+                <td>3.42%</td>
+            </tr>
+        </table>
+        <div class="grafico">
+            <canvas id="vereadores2020"></canvas>
+        </div>
+        <h3>PSD</h3><table>
+            <tr>
+                <th rowspan="2">Ordem</th>
+                <th rowspan="2">Opção</th>
+                <th rowspan="2">Votos</th>
+                <th colspan="3">Percentual</th>
+            </tr>
+            <tr>
+                <th>Válidos</th>
+            </tr>
+            <tr>
+                <th>#1</th>
+                <th>Wederson de Paula</th>
+                <td>77</td>
+                <td>1.67%</td>
+            </tr>
+            <tr>
+                <th>#2</th>
+                <th>Filomena do Laboratório</th>
+                <td>74</td>
+                <td>1.61%</td>
+            </tr>
+            <tr>
+                <th>#3</th>
+                <th>Aleguito Alegria</th>
+                <td>32</td>
+                <td>0.69%</td>
+            </tr>
+            <tr>
+                <th>#4</th>
+                <th>Diozilene Martins</th>
+                <td>16</td>
+                <td>0.35%</td>
+            </tr>
+            <tr>
+                <th>#5</th>
+                <th>Jesus Alves</th>
+                <td>14</td>
+                <td>0.30%</td>
+            </tr>
+            <tr>
+                <th colspan="2">legenda PSD</th>
+                <td>3</td>
+                <td>0.07%</td>
+            </tr>
+        </table>
+        
+        <h3>MDB</h3>
+        <table>
+            <tr>
+                <th rowspan="2">Ordem</th>
+                <th rowspan="2">Opção</th>
+                <th rowspan="2">Votos</th>
+                <th colspan="3">Percentual</th>
+            </tr>
+            <tr>
+                <th>Válidos</th>
+            </tr>
+            <tr class="eleito">
+                <th>#1</th>
+                <th>Eliana do Antônio Melo</th>
+                <td>362</td>
+                <td>7.86%</td>
+            </tr>
+            <tr class="eleito">
+                <th>#2</th>
+                <th>Neném do Açougue</th>
+                <td>314</td>
+                <td>6.82%</td>
+            </tr>
+            <tr class="eleito">
+                <th>#3</th>
+                <th>Rocha</th>
+                <td>308</td>
+                <td>6.69%</td>
+            </tr>
+            <tr class="eleito">
+                <th>#4</th>
+                <th>Ronicelson Magaiver</th>
+                <td>223</td>
+                <td>4.84%</td>
+            </tr>
+            <tr class="eleito">
+                <th>#5</th>
+                <th>Erivelton</th>
+                <td>201</td>
+                <td>4.36%</td>
+            </tr>
+            <tr>
+                <th>#6</th>
+                <th>André do Israel</th>
+                <td>143</td>
+                <td>3.10%</td>
+            </tr>
+            <tr>
+                <th>#7</th>
+                <th>Etervina do Taboão</th>
+                <td>136</td>
+                <td>2.95%</td>
+            </tr>
+            <tr>
+                <th>#8</th>
+                <th>Reginaldo Barroso</th>
+                <td>133</td>
+                <td>2.89%</td>
+            </tr>
+            <tr>
+                <th>#9</th>
+                <th>Leidijane do Juquita</th>
+                <td>129</td>
+                <td>2.80%</td>
+            </tr>
+            <tr>
+                <th>#10</th>
+                <th>Gilda Fortes</th>
+                <td>103</td>
+                <td>2.24%</td>
+            </tr>
+            <tr>
+                <th>#11</th>
+                <th>Alexandre Bico</th>
+                <td>85</td>
+                <td>1.85%</td>
+            </tr>
+            <tr>
+                <th>#12</th>
+                <th>Cristian</th>
+                <td>51</td>
+                <td>1.11%</td>
+            </tr>
+            <tr>
+                <th>#13</th>
+                <th>Denise Lessa</th>
+                <td>32</td>
+                <td>0.69%</td>
+            </tr>
+            <tr>
+                <th>#14</th>
+                <th>Preto da Madalena</th>
+                <td>10</td>
+                <td>0.22%</td>
+            </tr>
+            <tr>
+                <th colspan="2">legenda MDB</th>
+                <td>146</td>
+                <td>3.17%</td>
+            </tr>
+        </table>
+        <h3>DEM</h3>
+        <table>
+            <tr>
+                <th rowspan="2">Ordem</th>
+                <th rowspan="2">Opção</th>
+                <th rowspan="2">Votos</th>
+                <th colspan="3">Percentual</th>
+            </tr>
+            <tr>
+                <th>Válidos</th>
+            </tr>
+            <tr class="eleito">
+                <th>#1</th>
+                <th>Manuel Abbud</th>
+                <td>335</td>
+                <td>7.27%</td>
+            </tr>
+            <tr class="eleito">
+                <th>#2</th>
+                <th>Mateus Vitoriano</th>
+                <td>334</td>
+                <td>7.25%</td>
+            </tr>
+            <tr class="eleito">
+                <th>#3</th>
+                <th>Delei do Toninho</th>
+                <td>309</td>
+                <td>6.71%</td>
+            </tr>
+            <tr class="eleito">
+                <th>#4</th>
+                <th>Trinca-Ferro</th>
+                <td>290</td>
+                <td>6.30%</td>
+            </tr>
+            <tr>
+                <th>#5</th>
+                <th>Canário</th>
+                <td>196</td>
+                <td>4.26%</td>
+            </tr>
+            <tr>
+                <th>#6</th>
+                <th>João Milhão</th>
+                <td>145</td>
+                <td>3.15%</td>
+            </tr>
+            <tr>
+                <th>#7</th>
+                <th>Gegê</th>
+                <td>58</td>
+                <td>1.26%</td>
+            </tr>
+            <tr>
+                <th>#8</th>
+                <th>Tião Medonho</th>
+                <td>39</td>
+                <td>0.85%</td>
+            </tr>
+            <tr>
+                <th>#9</th>
+                <th>Valquíria</th>
+                <td>38</td>
+                <td>0.83%</td>
+            </tr>
+            <tr>
+                <th>#10</th>
+                <th>Ana Cleide</th>
+                <td>33</td>
+                <td>0.72%</td>
+            </tr>
+            <tr>
+                <th>#11</th>
+                <th>Cintia</th>
+                <td>30</td>
+                <td>0.65%</td>
+            </tr>
+            <tr>
+                <th>#12</th>
+                <th>Meire</th>
+                <td>24</td>
+                <td>0.52%</td>
+            </tr>
+            <tr>
+                <th>#13</th>
+                <th>Natali</th>
+                <td>23</td>
+                <td>0.50%</td>
+            </tr>
+            <tr>
+                <th>#14</th>
+                <th>Carlinhos Ávila</th>
+                <td>10</td>
+                <td>0.26%</td>
+            </tr>
+            <tr>
+                <th colspan="2">legenda DEM</th>
+                <td>148</td>
+                <td>3.17%</td>
+            </tr>
+        </table>
     <script>
-        function apura(){
-            var total = 5770
-            var laercio = 0
-            var dragao = 0
-            var branco = 0
-            var nulo = 0
-            var abst = 0
-            var vantagem = 0
-            var restantes = 5770
-            for(var i = 0;i<24;i++){
-                laercio = Number(document.getElementsByClassName('laercio')[i].value)+Number(laercio)
-                dragao = Number(document.getElementsByClassName('dragao')[i].value)+Number(dragao)
-                branco = Number(document.getElementsByClassName('branco')[i].value)+Number(branco)
-                nulo = Number(document.getElementsByClassName('nulo')[i].value)+Number(nulo)
-                abst = Number(document.getElementsByClassName('abst')[i].value)+Number(abst)
-                vantagem = laercio-dragao
-                restantes = total-laercio-dragao-branco-nulo-abst
-            }
-            window.document.getElementById('dragaoSV').innerText = dragao
-            window.document.getElementById('laercioSV').innerText = laercio
-            window.document.getElementById('brancoSV').innerText = branco
-            window.document.getElementById('nuloSV').innerText = nulo
-            window.document.getElementById('abstSV').innerText = abst
-            if(laercio>dragao){
-                document.getElementById("vantagemSV").style.color = "white"
-                document.getElementById("vantagemSV").style.backgroundColor = "rgb(0,182,73)"
-                window.document.getElementById('vantagemSV').innerText = "+"+Number(vantagem)
-            }else{
-                document.getElementById('vantagemSV').style.color = "red"
-                document.getElementById('vantagemSV').style.backgroundColor = "yellow"
-                window.document.getElementById('vantagemSV').innerText = Number(vantagem)
-            }
-            window.document.getElementById('restantesSV').innerText = Number(restantes)
-            if(vantagem>restantes){
-                window.document.getElementById('mensagem').innerText = "É Laércio e Chiquinho SIM! Chama que é 15 de novo!"
-            }else if(-vantagem>=restantes){
-                window.document.getElementById('mensagem').innerText = "Obrigado pelo apoio! Vão para casa com segurança."
-            }else{
-                window.document.getElementById('mensagem').innerText = ""
-            }
-            new Chart(document.getElementById('apuracaoprefeito'), {
+        /*ELEIÇÃO 2020*/
+        new Chart(document.getElementById('prefeito2020'), {
                 type: 'doughnut',
                 data: {
-                    labels: ["Laercio","restantes","Dragão"],
+                    labels: ['Laércio & Chiquinho', 'Dragão & Primo'],
                     datasets: [{
                         label: 'Votos',
-                        data: [laercio,restantes,dragao],
+                        data: [2399, 2275],
                         backgroundColor: [
                             'rgb(0, 128, 0)',
-                            'rgb(255, 255, 255)',
                             'rgb(255, 255, 0)'
                         ],
                         borderColor: [
-                            'rgb(0, 0, 0)',
-                            'rgb(0, 0, 0)',
-                            'rgb(0, 0, 0)'
+                            'rgb(255, 255, 255)',
+                            'rgb(255, 255, 255)',
+                            'rgb(255, 255, 255)'
                         ]
                     }]
                 },
@@ -69,260 +433,41 @@
                     legend: {
                         display: true,
                         labels: {
-                            fontColor: 'rgb(255,255,255)'
+                            fontColor: 'rgb(255, 255, 255)'
                         }
                     }
                 }
             })
-        }
+            
+        /*ELEIÇÃO 2020*/
+        new Chart(document.getElementById('vereadores2020'), {
+                type: 'doughnut',
+                data: {
+                    labels: ['MDB', 'PSD','DEM'],
+                    datasets: [{
+                        label: 'Votos',
+                        data: [2376, 126, 2014],
+                        backgroundColor: [
+                            'rgb(0, 128, 0)',
+                            'rgb(0, 0, 128)',
+                            'rgb(255, 255, 0)'
+                        ],
+                        borderColor: [
+                            'rgb(255, 255, 255)',
+                            'rgb(255, 255, 255)',
+                            'rgb(255, 255, 255)'
+                        ]
+                    }]
+                },
+                options: {
+                    legend: {
+                        display: true,
+                        labels: {
+                            fontColor: 'rgb(255, 255, 255)'
+                        }
+                    }
+                }
+            })
     </script>
-    <style>
-        body{
-            color: rgb(0,182,73);
-            background-color: rgb(31,46,88);
-            text-align: center;
-            font-family: sans-serif;
-        }
-        h1{
-            font-size: 30pt;
-        }
-        input[type="number"]{
-            width:40px;
-            text-align: right;
-        }
-        td{
-            text-align: center;
-        }
-        div#placarprefeito{
-            font-size: 40pt;
-            font-weight: bolder;
-            display: inline-block;
-            max-width: 480px;
-            float:left;
-        }
-        span.PSV{
-            margin:10px;
-            padding-left: 30px;
-            padding-right: 30px;
-            border-radius: 10px;
-        }
-        span.PSVmenor{
-            margin:5px;
-            padding-left: 15px;
-            padding-right: 15px;
-            border-radius: 5px;
-            font-size: 20pt;
-        }
-        .dragao{
-            background-color: yellow;
-            color:red;
-        }
-        .laercio{
-            background-color:rgb(0,182,73);
-            color:white;
-        }
-        .branco{
-            background-color: white;
-            color:black;
-        }
-        .nulo{
-            background-color: gray;
-            color:black;
-        }
-        .abst{
-            background-color: black;
-            color:white;
-        }
-        span#vantagemSV{
-            color:red;
-            background-color: yellow;
-        }
-        canvas{
-            max-width: 480px;
-            display: inline-block;
-            float:right;
-        }
-    </style>
-</head>
-<body>
-    <h1>Apuração dos votos para prefeito</h1>
-    <p>versão 1</p>
-    <table onchange="apura()">
-        <tr>
-            <th>seção</th>
-            <td>S 64</td>
-            <td>S 65</td>
-            <td>S 66</td>
-            <td>S 67</td>
-            <td>S 68</td>
-            <td>S 69</td>
-            <td>S 70</td>
-            <td>S 71</td>
-            <td>S 72</td>
-            <td>S 73</td>
-            <td>S 74</td>
-            <td>S 75</td>
-            <td>S 76</td>
-            <td>S 77</td>
-            <td>S 78</td>
-            <td>S 79</td>
-            <td>S 80</td>
-            <td>S 81</td>
-            <td>S 82</td>
-            <td>S 83</td>
-            <td>S 84</td>
-            <td>S 85</td>
-            <td>S 86</td>
-            <td>S 87</td>
-        </tr>
-        <tr>
-            <th>Laércio</th>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-            <td><input type="number" class="laercio" id="" value="0"></td>
-        </tr>
-        <tr>
-            <th>Dragão</th>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-            <td><input type="number" class="dragao" id="" value="0"></td>
-        </tr>
-        <tr>
-            <th>branco</th>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-            <td><input type="number" class="branco" id="" value="0"></td>
-        </tr>
-        <tr>
-            <th>nulos</th>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-            <td><input type="number" class="nulo" id="" value="0"></td>
-        </tr>
-        <tr>
-            <th>abst</th>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-            <td><input type="number" class="abst" id="" value="0"></td>
-        </tr>
-    </table>
-    <input type="button" value="Apurar" onclick="apura(),grafica()">
-    <div id="placarprefeito">
-        <span class="PSV laercio" id="laercioSV">0</span> &dash;
-        <span class="PSV dragao" id="dragaoSV">0</span><br>
-        <span class="PSVmenor branco" id="brancoSV">0</span>
-        <span class="PSVmenor nulo" id="nuloSV">0</span>
-        <span class="PSVmenor abst" id="abstSV">0</span><br>
-        vantagem:<span class="PSV" id="vantagemSV">0</span><br>
-        restantes:<span class="PSV" id="restantesSV">5770</span><br>
-        <span class="PSV" id="mensagem"></span>
-    </div>
-    <canvas id="apuracaoprefeito"></canvas>
-    <p>Programado por Wederson Geovane de Paula</p>
 </body>
 </html>
