@@ -5,110 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
     <title>Wederson de Paula - Resultado da Eleição</title>
-    <style>
-        body{
-            font-family:'Arial';
-            text-align:center;
-            background-color: #027283;
-            margin:20px;
-            color:white;
-        }
-        td{
-            border-radius: 4px;
-        }
-        div.grafico{
-            border-radius: 50px;
-            margin: auto;
-            display: inline-block;
-        }
-        div.graficobar{
-            float:left;
-            border-radius: 50px;
-        }
-        canvas{
-            min-width:300px;
-            
-        }
-        h1,h2,h3,h4,h5,h6{
-            color:white;
-        }
-        table{
-            border-color: black;
-            display: inline-block;
-        }
-        td,th{
-            border-color: 1px solid black;
-            border-radius: 6px;
-            margin:2px;
-            padding: 3px;
-        }
-        td{
-            color:white;
-            background-color: black;
-            font-weight:bolder;
-            text-align: right;
-        }
-        th{
-            background-color:rgb(22, 12, 65);
-        }
-        tr.eleito th:nth-child(1){
-            background-color: green;
-        }
-    </style>
+    <link rel="stylesheet" href="tecnologico.css">
 </head>
 <body>
     <h1>Resultado da Eleição</h1>
-    <h2>Prefeito</h2>
-    <table>
-        <tr>
-            <th rowspan="2">Opção</th>
-            <th rowspan="2">Votos</th>
-            <th colspan="3">Percentual</th>
-        </tr>
-        <tr>
-            <th>Válidos</th>
-            <th>Objetivos</th>
-            <th>Totais</th>
-        </tr>
-        <tr>
-            <th>Laércio</th>
-            <td>2399</td>
-            <td>51.33%</td>
-            <td>50.59%</td>
-            <td>49.33%</td>
-        </tr>
-        <tr>
-            <th>Dragão</th>
-            <td>2275</td>
-            <td>48.67%</td>
-            <td>47.98%</td>
-            <td>46.78%</td>
-        </tr>
-        <tr>
-            <th>brancos</th>
-            <td>68</td>
-            <td>&dash;</td>
-            <td>1.43%</td>
-            <td>1.40%</td>
-        </tr>
-        <tr>
-            <th>nulos</th>
-            <td>121</td>
-            <td>&dash;</td>
-            <td>&dash;</td>
-            <td>2.49%</td>
-        </tr>
-    </table>
-    <div class="grafico">
-        <canvas id="prefeito2020"></canvas>
+    <div class="painel">
+        <h2>Prefeito</h2>
+        <table>
+            <tr>
+                <th rowspan="2">Opção</th>
+                <th rowspan="2">Votos</th>
+                <th colspan="3">Percentual</th>
+            </tr>
+            <tr>
+                <th>Válidos</th>
+                <th>Objetivos</th>
+                <th>Totais</th>
+            </tr>
+            <tr class="eleito">
+                <th>Laércio</th>
+                <td>2399</td>
+                <td>51.33%</td>
+                <td>50.59%</td>
+                <td>49.33%</td>
+            </tr>
+            <tr>
+                <th>Dragão</th>
+                <td>2275</td>
+                <td>48.67%</td>
+                <td>47.98%</td>
+                <td>46.78%</td>
+            </tr>
+            <tr>
+                <th>brancos</th>
+                <td>68</td>
+                <td><hr></td>
+                <td>1.43%</td>
+                <td>1.40%</td>
+            </tr>
+            <tr>
+                <th>nulos</th>
+                <td>121</td>
+                <td><hr></td>
+                <td><hr></td>
+                <td>2.49%</td>
+            </tr>
+            <tr>
+                <th>abst.</th>
+                <td>907</td>
+                <td colspan="3">15.72% de 5770</td>
+            </tr>
+        </table>
+        <div class="grafico">
+            <canvas id="prefeito2020"></canvas>
+        </div>
     </div>
+    <div class="painel">
         <h2>Vereador</h2>
         <h3>Por partido</h3>
         <table>
             <tr>
                 <th rowspan="2">Opção</th>
                 <th rowspan="2">Votos</th>
-                <th rowspan="2">Cadeiras</th>
+                <th rowspan="2">E</th>
                 <th colspan="3">Percentual</th>
             </tr>
             <tr>
@@ -143,272 +102,325 @@
             <tr>
                 <th>brancos</th>
                 <td>94</td>
-                <td>&dash;</td>
-                <td>&dash;</td>
+                <td><hr></td>
+                <td><hr></td>
                 <td>2.04%</td>
                 <td>1.97%</td>
             </tr>
             <tr>
                 <th>nulo</th>
                 <td>163</td>
-                <td>&dash;</td>
-                <td>&dash;</td>
-                <td>&dash;</td>
+                <td><hr></td>
+                <td><hr></td>
+                <td><hr></td>
                 <td>3.42%</td>
+            </tr>
+            <tr>
+                <th>abst.</th>
+                <td>907</td>
+                <td colspan="4">15.72% de 5770</td>
             </tr>
         </table>
         <div class="grafico">
             <canvas id="vereadores2020"></canvas>
         </div>
+    </div>
+    <div class="painel">
         <h3>PSD</h3><table>
             <tr>
                 <th rowspan="2">Ordem</th>
                 <th rowspan="2">Opção</th>
                 <th rowspan="2">Votos</th>
-                <th colspan="3">Percentual</th>
+                <th colspan="2">Percentual</th>
             </tr>
             <tr>
                 <th>Válidos</th>
+                <th>Nominais</th>
             </tr>
             <tr>
                 <th>#1</th>
                 <th>Wederson de Paula</th>
                 <td>77</td>
                 <td>1.67%</td>
+                <td>1.79%</td>
             </tr>
             <tr>
                 <th>#2</th>
                 <th>Filomena do Laboratório</th>
                 <td>74</td>
                 <td>1.61%</td>
+                <td>1.72%</td>
             </tr>
             <tr>
                 <th>#3</th>
                 <th>Aleguito Alegria</th>
                 <td>32</td>
                 <td>0.69%</td>
+                <td>0.74%</td>
             </tr>
             <tr>
                 <th>#4</th>
                 <th>Diozilene Martins</th>
                 <td>16</td>
                 <td>0.35%</td>
+                <td>0.37%</td>
             </tr>
             <tr>
                 <th>#5</th>
                 <th>Jesus Alves</th>
                 <td>14</td>
                 <td>0.30%</td>
+                <td>0.32%</td>
             </tr>
             <tr>
                 <th colspan="2">legenda PSD</th>
                 <td>3</td>
                 <td>0.07%</td>
+                <td><hr></td>
             </tr>
         </table>
-        
+    </div>    
+
+    <div class="painel">
         <h3>MDB</h3>
         <table>
             <tr>
                 <th rowspan="2">Ordem</th>
                 <th rowspan="2">Opção</th>
                 <th rowspan="2">Votos</th>
-                <th colspan="3">Percentual</th>
+                <th colspan="2">Percentual</th>
             </tr>
             <tr>
                 <th>Válidos</th>
+                <th>Nominais</th>
             </tr>
             <tr class="eleito">
                 <th>#1</th>
                 <th>Eliana do Antônio Melo</th>
                 <td>362</td>
                 <td>7.86%</td>
+                <td>8.40%</td>
             </tr>
             <tr class="eleito">
                 <th>#2</th>
                 <th>Neném do Açougue</th>
                 <td>314</td>
                 <td>6.82%</td>
+                <td>7.29%</td>
             </tr>
             <tr class="eleito">
                 <th>#3</th>
                 <th>Rocha</th>
                 <td>308</td>
                 <td>6.69%</td>
+                <td>7.15%</td>
             </tr>
             <tr class="eleito">
                 <th>#4</th>
                 <th>Ronicelson Magaiver</th>
                 <td>223</td>
                 <td>4.84%</td>
+                <td>5.18%</td>
             </tr>
             <tr class="eleito">
                 <th>#5</th>
                 <th>Erivelton</th>
                 <td>201</td>
                 <td>4.36%</td>
+                <td>4.66%</td>
             </tr>
             <tr>
                 <th>#6</th>
                 <th>André do Israel</th>
                 <td>143</td>
                 <td>3.10%</td>
+                <td>3.32%</td>
             </tr>
             <tr>
                 <th>#7</th>
                 <th>Etervina do Taboão</th>
                 <td>136</td>
                 <td>2.95%</td>
+                <td>3.16%</td>
             </tr>
             <tr>
                 <th>#8</th>
-                <th>Reginaldo Barroso</th>
+                <th>Barroso</th>
                 <td>133</td>
                 <td>2.89%</td>
+                <td>3.09%</td>
             </tr>
             <tr>
                 <th>#9</th>
                 <th>Leidijane do Juquita</th>
                 <td>129</td>
                 <td>2.80%</td>
+                <td>2.99%</td>
             </tr>
             <tr>
                 <th>#10</th>
                 <th>Gilda Fortes</th>
                 <td>103</td>
                 <td>2.24%</td>
+                <td>2.39%</td>
             </tr>
             <tr>
                 <th>#11</th>
                 <th>Alexandre Bico</th>
                 <td>85</td>
                 <td>1.85%</td>
+                <td>1.97%</td>
             </tr>
             <tr>
                 <th>#12</th>
                 <th>Cristian</th>
                 <td>51</td>
                 <td>1.11%</td>
+                <td>1.18%</td>
             </tr>
             <tr>
                 <th>#13</th>
                 <th>Denise Lessa</th>
                 <td>32</td>
                 <td>0.69%</td>
+                <td>0.74%</td>
             </tr>
             <tr>
                 <th>#14</th>
                 <th>Preto da Madalena</th>
                 <td>10</td>
                 <td>0.22%</td>
+                <td>0.23%</td>
             </tr>
             <tr>
                 <th colspan="2">legenda MDB</th>
                 <td>146</td>
                 <td>3.17%</td>
+                <td><hr></td>
             </tr>
         </table>
+    </div>
+        
+    <div class="painel">
         <h3>DEM</h3>
         <table>
             <tr>
                 <th rowspan="2">Ordem</th>
                 <th rowspan="2">Opção</th>
                 <th rowspan="2">Votos</th>
-                <th colspan="3">Percentual</th>
+                <th colspan="2">Percentual</th>
             </tr>
             <tr>
                 <th>Válidos</th>
+                <th>Nominais</th>
             </tr>
             <tr class="eleito">
                 <th>#1</th>
                 <th>Manuel Abbud</th>
                 <td>335</td>
                 <td>7.27%</td>
+                <td>7.77%</td>
             </tr>
             <tr class="eleito">
                 <th>#2</th>
                 <th>Mateus Vitoriano</th>
                 <td>334</td>
                 <td>7.25%</td>
+                <td>7.75%</td>
             </tr>
             <tr class="eleito">
                 <th>#3</th>
                 <th>Delei do Toninho</th>
                 <td>309</td>
                 <td>6.71%</td>
+                <td>7.17%</td>
             </tr>
             <tr class="eleito">
                 <th>#4</th>
                 <th>Trinca-Ferro</th>
                 <td>290</td>
                 <td>6.30%</td>
+                <td>6.73%</td>
             </tr>
             <tr>
                 <th>#5</th>
                 <th>Canário</th>
                 <td>196</td>
                 <td>4.26%</td>
+                <td>4.55%</td>
             </tr>
             <tr>
                 <th>#6</th>
                 <th>João Milhão</th>
                 <td>145</td>
                 <td>3.15%</td>
+                <td>3.37%</td>
             </tr>
             <tr>
                 <th>#7</th>
                 <th>Gegê</th>
                 <td>58</td>
                 <td>1.26%</td>
+                <td>1.35%</td>
             </tr>
             <tr>
                 <th>#8</th>
                 <th>Tião Medonho</th>
                 <td>39</td>
                 <td>0.85%</td>
+                <td>0.91%</td>
             </tr>
             <tr>
                 <th>#9</th>
                 <th>Valquíria</th>
                 <td>38</td>
                 <td>0.83%</td>
+                <td>0.88%</td>
             </tr>
             <tr>
                 <th>#10</th>
                 <th>Ana Cleide</th>
                 <td>33</td>
                 <td>0.72%</td>
+                <td>0.77%</td>
             </tr>
             <tr>
                 <th>#11</th>
                 <th>Cintia</th>
                 <td>30</td>
                 <td>0.65%</td>
+                <td>0.70%</td>
             </tr>
             <tr>
                 <th>#12</th>
                 <th>Meire</th>
                 <td>24</td>
                 <td>0.52%</td>
+                <td>0.56%</td>
             </tr>
             <tr>
                 <th>#13</th>
                 <th>Natali</th>
                 <td>23</td>
                 <td>0.50%</td>
+                <td>0.53%</td>
             </tr>
             <tr>
                 <th>#14</th>
                 <th>Carlinhos Ávila</th>
                 <td>10</td>
                 <td>0.26%</td>
+                <td>0.28%</td>
             </tr>
             <tr>
                 <th colspan="2">legenda DEM</th>
                 <td>148</td>
                 <td>3.17%</td>
+                <td><hr></td>
             </tr>
         </table>
+    </div>
+        
     <script>
         /*ELEIÇÃO 2020*/
         new Chart(document.getElementById('prefeito2020'), {
@@ -423,9 +435,9 @@
                             'rgb(255, 255, 0)'
                         ],
                         borderColor: [
-                            'rgb(255, 255, 255)',
-                            'rgb(255, 255, 255)',
-                            'rgb(255, 255, 255)'
+                            'rgb(0, 0, 0)',
+                            'rgb(0, 0, 0)',
+                            'rgb(0, 0, 0)'
                         ]
                     }]
                 },
@@ -433,7 +445,7 @@
                     legend: {
                         display: true,
                         labels: {
-                            fontColor: 'rgb(255, 255, 255)'
+                            fontColor: 'rgb(0, 0, 0)'
                         }
                     }
                 }
@@ -453,9 +465,9 @@
                             'rgb(255, 255, 0)'
                         ],
                         borderColor: [
-                            'rgb(255, 255, 255)',
-                            'rgb(255, 255, 255)',
-                            'rgb(255, 255, 255)'
+                            'rgb(0, 0, 0)',
+                            'rgb(0, 0, 0)',
+                            'rgb(0, 0, 0)'
                         ]
                     }]
                 },
@@ -463,7 +475,7 @@
                     legend: {
                         display: true,
                         labels: {
-                            fontColor: 'rgb(255, 255, 255)'
+                            fontColor: 'rgb(0, 0, 0)'
                         }
                     }
                 }
